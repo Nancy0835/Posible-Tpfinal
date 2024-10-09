@@ -23,10 +23,10 @@ function draw() {
     fill(0); // Color negro para el texto
     textSize(32); // Tamaño del texto
     textAlign(CENTER);
-    textFont('Georgia'); // Cambia la tipografía a Georgia (puedes elegir otra)
+    textFont('Georgia'); // Cambia la tipografía a Georgia (se puede elegir otra)
     textStyle(BOLD); // Estilo en negrita
     fill(255);
-    text("Unchesterd", width / 2, 50); // Título en la parte superior
+    text("Uncharted", width / 2, 50); // Título en la parte superior
 
     let botonX = width / 2 - 50; // Centrar el botón
     let botonY = height - 150; // Margen desde el fondo (ajustado más arriba)
@@ -39,7 +39,7 @@ function draw() {
     textSize(20);
     fill(255);
     textAlign(CENTER);
-    text("Natan y Elena encuentran el diario de Sir. Francis Draken\n y se encuentran un mapa que da hacia el tesoro del Dorado", width / 2, 300); // Escribe el texto en la pantalla 2
+    text("Natan y Elena encuentran el diario de Sir. Francis Drake \n y se encuentran un mapa hacia el tesoro del Dorado", width / 2, 300); // Escribe el texto en la pantalla 2
 
     // Dibuja el botón siguiente
     let botonSiguienteX = width / 2 - 50; // Centrar el botón siguiente
@@ -66,7 +66,7 @@ function mousePressed() {
 
     if (mouseX > botonSiguienteX && mouseX < botonSiguienteX + 100 &&
         mouseY > botonSiguienteY && mouseY < botonSiguienteY + 100) {
-      // Aquí puedes implementar la lógica para cambiar a otra pantalla o hacer algo más
+      // Aquí se puede implementar la lógica para cambiar a otra pantalla o hacer algo más
     }
   }
 }
